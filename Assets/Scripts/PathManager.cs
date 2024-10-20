@@ -31,7 +31,8 @@ public class PathManager : MonoBehaviour
         for(int i = 0; i < path.Count; i++)
         {
             Waypoint p = path[i];
-            GameObject g = prefabPoints[i]; g.transform.position = p.pos;
+            GameObject g = prefabPoints[i]; 
+            g.transform.position = p.pos;
         }
     }
 
